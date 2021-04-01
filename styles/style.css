@@ -1,0 +1,20 @@
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width:300px;/* pra diminuir o tamanho da caixa de input */
+    margin: auto;/* coloca a div no meio da tela */
+    background-color: aquamarine;
+    padding: 20px;/* distancia do elemento e da caixa */
+    border-radius: 10px;
+
+}
+input{
+    width: 100%;/* o campo pega a div inteira */
+    padding: 10px;/* largura dos campos e distancia referente ao que esta dentro */
+    box-sizing: border-box;/*  quer dizer q os campos vao ficar simetricos tanto na direita quanto na esquerda */
+    display: block;/* quer dizer não tem mais nada do lado dele o botão ficava do lado dos campos agora não mais */
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+/* h1{
+    margin-top: 0; se eu quisesse tirar o espaço entre a palavra churrascometro e o topo
+} */
